@@ -17,7 +17,6 @@ test('Test005 @API', async ({ }) => {
   const response = await requestContext.post('https://api.openai.com/v1/responses', {
     headers: {
       'Content-Type': 'application/json',
-      // 'Authorization': 'Bearer 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'
     },
     data: {
       model: 'gpt-4o',
