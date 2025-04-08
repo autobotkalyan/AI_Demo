@@ -1,0 +1,50 @@
+import {test, expect} from '@playwright/test'
+
+/*Certainly! Here are the test steps to verify the login functionality of https://www.chase.com with valid user credentials:
+
+### Test Steps:
+
+1. **Navigate to Website:**
+   - Open a web browser.
+   - Enter "https://www.chase.com" in the address bar and press Enter.
+
+2. **Access the Login Page:**
+   - Locate the "Sign In" button on the homepage.
+   - Click on "Sign In" to navigate to the login page.
+
+3. **Enter Username:**
+   - Find the "Username" field.
+   - Enter a valid username.
+
+4. **Enter Password:**
+   - Find the "Password" field.
+   - Enter the correct password associated with the username.
+
+5. **Submit Login Form:**
+   - Click on the "Log In" button to proceed.
+
+6. **Verify Successful Login:**
+   - Confirm that the login is successful by checking for any of the following:
+     - Redirection to the user dashboard.
+     - Presence of the user's name or account details.
+     - Absence of any error messages.
+  
+7. **Logout:**
+   - Locate the "Logout" or "Sign Out" option.
+   - Click to log out from the account, confirming that the logout is successful.
+
+### Additional Considerations:
+
+- **Error Handling:**
+  - Ensure no error messages appear during the login process with valid credentials.
+
+- **Security:**
+  - Verify HTTPS is enabled for secure data transmission.
+
+- **Compatibility:**
+  - Test the login functionality across different browsers (e.g., Chrome, Firefox, Safari).
+
+- **Response Time:**
+  - Ensure the login process is completed within an acceptable time frame.
+
+These steps help confirm that users can log in successfully with valid credentials.*/

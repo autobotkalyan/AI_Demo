@@ -1,0 +1,1 @@
+npx playwright codegen https://www.saucedemo.com/ --output=Test005.spec.ts

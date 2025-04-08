@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "4a1671e1-d1c5-4168-b2ba-31bf38629015",
+		"name": "AI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.openai.com/v1/responses",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let responseData = pm.response.json();",
+							"console.log(responseData.output[0].content[0].text);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer $OPENAI_API_KEY",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"model\": \"gpt-4o\",\n    \"input\": \"Generate test steps to check the login functionality of https://www.chase.com with Valid User Credentials\"\n}"
+				},
+				"url": {
+					"raw": "https://api.openai.com/v1/responses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openai",
+						"com"
+					],
+					"path": [
+						"v1",
+						"responses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
