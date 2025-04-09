@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test'
 
-/*Certainly! Here are three test steps to navigate and sign in to Chase.com:
+/*Certainly! Here are three test steps to navigate and sign in to Chase.com websites:
 
 1. **Open the Chase Website:**
    - Launch a web browser (e.g., Chrome, Firefox, Safari).
@@ -19,7 +19,7 @@ import {test, expect} from '@playwright/test'
 
 Make sure to use only valid test credentials for testing purposes.*/
 test('Test003 @API', async ({ page }) => {
-  // Step 1: Open the Chase Website
+  // Step 1: Open the Chase Website chase
   await page.goto('https://www.chase.com');
   await expect(page).toHaveURL('https://www.chase.com/');
 

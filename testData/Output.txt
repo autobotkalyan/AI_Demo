@@ -1,7 +1,3 @@
-import {test, expect} from '@playwright/test'
-
-/*Certainly! Here are the test steps to verify the login functionality of https://www.chase.com with valid user credentials:
-
 ### Test Steps:
 
 1. **Navigate to Website:**
@@ -46,5 +42,3 @@ import {test, expect} from '@playwright/test'
 
 - **Response Time:**
   - Ensure the login process is completed within an acceptable time frame.
-
-These steps help confirm that users can log in successfully with valid credentials.*/
