@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test'
 
-/*Certainly! Here are three test steps to navigate and sign in to Chase.com website:
+/*Certainly! Here are three test steps to navigate and sign in to Chase.com websites:
 
 1. **Open the Chase Website:**
    - Launch a web browser (e.g., Chrome, Firefox, Safari).
